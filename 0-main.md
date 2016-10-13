@@ -43,4 +43,4 @@
 
 [Подробнее][de2dc09a]
 
-[de2dc09a]: calculate-insurance.md "Этапы расчета калькулятора"
+[de2dc09a]: 1-calculate-insurance.md "Этапы расчета калькулятора"
