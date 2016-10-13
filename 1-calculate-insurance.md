@@ -6,7 +6,7 @@
 
 После заполнения полей личных данных водителя создается объект с персоной и в это же время идет проверка в РСА.
 
-Рест: `http://megaruss-client.cmios.ru/rest/default/client/natural-person-create`
+Рест: `/rest/default/client/natural-person-create`
 
 Пример отправленных значений:
 
@@ -61,7 +61,7 @@
 
 После нажатия кнопки "расчитать" отправляются собранные данные на умный полис:
 
-`http://megaruss-client.cmios.ru/rest/default/client/car-create`
+`/rest/default/client/car-create`
 
 ```
 {
@@ -82,7 +82,7 @@
 }
 ```
 
-`http://megaruss-client.cmios.ru/rest/default/client/insured-object`
+`/rest/default/client/insured-object`
 
 ```
 {
@@ -95,7 +95,7 @@
 }
 ```
 
-`http://megaruss-client.cmios.ru/rest/full/calculation/`
+`/rest/full/calculation/`
 
 ```
 {
@@ -221,7 +221,7 @@
 
 ### Получаем результаты расчета
 
-`http://megaruss-client.cmios.ru/rest/v3/default/calculation/6651460/result/54188/?insurance_company=1&messages=1&vars=1`
+`/rest/v3/default/calculation/6651460/result/54188/?insurance_company=1&messages=1&vars=1`
 
 ```
 [{

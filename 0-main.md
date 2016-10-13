@@ -10,7 +10,7 @@
 
 Чтобы получить токен, необходимо отправить POST запрос содержащий имя пользователя и пароль.
 
-Адрес для отправки запроса: `http://enter.b2bpolis.ru/rest/v3/default/obtain-token`
+Адрес для отправки запроса: `/rest/v3/default/obtain-token`
 
 ## Получение данных из справочников
 
@@ -20,15 +20,15 @@
 
 Справочник                                                       | Значение
 ---------------------------------------------------------------- | -------------------
-`http://megaruss-client.cmios.ru/rest/full/target_of_using/`     | Цель использования
-`http://megaruss-client.cmios.ru/rest/full/insurance_duration/`  | Срок страхования
-`http://megaruss-client.cmios.ru/rest/full/exploitation_area/`   | Регион эксплуатации
-`http://megaruss-client.cmios.ru/rest/full/insurant_type/`       | Тип страхования
-`http://megaruss-client.cmios.ru/rest/full/contributory_scheme/` | Порядок уплаты
-`http://megaruss-client.cmios.ru/rest/full/insurable_risk/`      | Страховой риск
-`http://megaruss-client.cmios.ru/rest/full/car_type/`            | Тип ТС
-`http://megaruss-client.cmios.ru/rest/full/owner_registration/`  | Регион регистрации
-`http://megaruss-client.cmios.ru/rest/full/car_mark/`            | Марки автомобилей
+`/rest/full/target_of_using/`     | Цель использования
+`/rest/full/insurance_duration/`  | Срок страхования
+`/rest/full/exploitation_area/`   | Регион эксплуатации
+`/rest/full/insurant_type/`       | Тип страхования
+`/rest/full/contributory_scheme/` | Порядок уплаты
+`/rest/full/insurable_risk/`      | Страховой риск
+`/rest/full/car_type/`            | Тип ТС
+`/rest/full/owner_registration/`  | Регион регистрации
+`/rest/full/car_mark/`            | Марки автомобилей
 
 ## Этапы расчета калькулятора
 
