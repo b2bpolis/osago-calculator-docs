@@ -6,7 +6,7 @@
 
 Название запроса      | Пример
 --------------------- | ------------------------------------------------------------------------------------
-result                | `/rest/v3/default/calculation/6651480/result/?insurance_company=1&messages=1&vars=1`
+result                | `/rest/v4/default/calculation/6651480/result/?insurance_company=1&messages=1&vars=1`
 insured-object-create | `/rest/default/client/insured-object-create/`
 
 Дополним рест `natural-person-create` участниками договора (кто является собственником и страхователем) а также паспортные данные `credential`.

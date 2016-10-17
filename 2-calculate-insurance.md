@@ -216,7 +216,7 @@
 
 Если всё сформировано правильно, в ответ вы получите сохраненный расчет с набором параметров и его идентификатором в системе.
 
-`/rest/v3/default/calculation/6651460/result/54188/?insurance_company=1&messages=1&vars=1`
+`/rest/v4/default/calculation/6651460/result/54188/?insurance_company=1&messages=1&vars=1`
 
 где "6651460" - id калькулейшена (из запроса `/rest/full/calculation/`), а "54188" - id региональной версии страховой компании `available_insurance_departments` из запроса `/rest/full/calculation/`, например "ОСАГО - Мегарусс клиент"
 
