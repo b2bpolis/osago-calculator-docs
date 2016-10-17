@@ -61,7 +61,7 @@
   "manufacturing_date": "2016-01-01",
   "engine_power": 150,
   "cost": "0",
-  "vin_number": null,
+  "vin_number": "TMBED45J2B3209311",
   "credential": [{
     "credential_type": 4,
     "series": "Не указана",
@@ -87,7 +87,7 @@
 
 ## Рест insured-object
 
-Запрос `insured-object` включает в себя данные из `car-create` и `natural-person-create`
+Запрос `insured-object` ссылается на `car-create` (**object_id**) и `natural-person-create` (массив **drivers**)
 
 `/rest/default/client/insured-object`
 
