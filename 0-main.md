@@ -67,7 +67,3 @@ Cookie: authToken=%222d6827b20c73b63d7fb4d940426bd0ad255d8747%22
   "title": "Прочее"
 }]
 ```
-
-[Подробнее][de2dc09a]
-
-[de2dc09a]: 1-calculate-insurance.md "Этапы расчета калькулятора"
