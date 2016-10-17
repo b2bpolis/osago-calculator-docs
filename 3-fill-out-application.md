@@ -299,3 +299,5 @@ insured-object-create | `/rest/default/client/insured-object-create/`
   }]
 }
 ```
+
+[СОДЕРЖАНИЕ](README.md)
