@@ -1,4 +1,6 @@
-# Заполните заявление
+[Содержание](README.md)
+
+# 2. Заполните заявление
 
 На второй этап мы передаем два реста через запрос GET:
 
@@ -86,7 +88,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 После нажатия кнопки "Сохранить" отправляем собранные значения на:
 
-`rest/default/client/insured-object`
+`/rest/default/client/insured-object`
 
 Пример:
 
