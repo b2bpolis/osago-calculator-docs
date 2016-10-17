@@ -9,14 +9,14 @@
 result                | `/rest/v3/default/calculation/6651480/result/?insurance_company=1&messages=1&vars=1`
 insured-object-create | `/rest/default/client/insured-object-create/`
 
-На этом этапе мы их дополним.
-
-Дополняем рест `insured-object-create` участниками договора (кто является собственником и страхователем) а также паспортные данные `credential`.
+Дополним рест `natural-person-create` участниками договора (кто является собственником и страхователем) а также паспортные данные `credential`.
 Здесь идет также проверка в РСА. Отправляем данные на:
+
+## Рест natural-person-create
 
 `/rest/default/client/natural-person-create`
 
-Пример запроса:
+### Пример отправленных значений
 
 ```JSON
 {
@@ -50,11 +50,13 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 }
 ```
 
-Вводим и отправляем дополнительные данные по автомобилю.
+## Рест car-create
 
 `/rest/default/client/car-create`
 
-Пример отправленных значений:
+Введем и отправим дополнительные данные по автомобилю.
+
+### Пример отправленных значений:
 
 ```JSON
 {
@@ -86,11 +88,13 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 }
 ```
 
+## Рест insured-object
+
 После нажатия кнопки "Сохранить" отправляем собранные значения на:
 
 `/rest/default/client/insured-object`
 
-Пример:
+### Пример отправленных значений
 
 ```JSON
 {
@@ -103,9 +107,11 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 }
 ```
 
+## Рест result_policy
+
 `/policy/rest/result_policy/`
 
-Пример:
+### Пример отправленных значений
 
 ```JSON
 {
@@ -121,9 +127,13 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 }
 ```
 
+## result_policy
+
 Получаем сформированный полис:
 
 `/policy/rest/result_policy/1391/`
+
+### Пример полученных данных
 
 ```JSON
 {
@@ -158,12 +168,11 @@ insured-object-create | `/rest/default/client/insured-object-create/`
   "is_verified": false
 }
 ```
-
-Получение объекта страхования
+## Получение объекта страхования
 
 `rest/default/client/insured-object-create/4655`
 
-Пример полученных данных
+### Пример полученных данных
 
 ```JSON
 {
