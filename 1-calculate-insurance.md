@@ -32,33 +32,6 @@
 }
 ```
 
-Пример полученных данных
-
-```
-{
-  "credential": [{
-    "credential_type": 3,
-    "issue_date": null,
-    "issue_point": "РФ",
-    "expiration_date": null,
-    "number": "188766",
-    "series": "77ОЕ"
-  }],
-  "address": [],
-  "person": 3337,
-  "id": 3655,
-  "created": "2016-10-13T10:26:49.978",
-  "modified": "2016-10-13T10:26:49.978",
-  "external_id": 3758,
-  "first_name": "Юрий",
-  "last_name": "Хомяков",
-  "patronymic": "Александрович",
-  "birth_date": "1985-09-18",
-  "gender": "M",
-  "driving_experience_started": "2009-07-14"
-}
-```
-
 После нажатия кнопки "расчитать" отправляются собранные данные на умный полис:
 
 `/rest/default/client/car-create`
@@ -221,7 +194,16 @@
 
 ### Получаем результаты расчета
 
+#### result
+
+Пример расчета:
+
 `/rest/v3/default/calculation/6651460/result/54188/?insurance_company=1&messages=1&vars=1`
+
+Здесь:
+
+- `6651460` это `id` из запроса `/rest/full/calculation/`
+- `54188` это id продукта страховой компании `available_insurance_departments` из запроса `/rest/full/calculation/`, например "ОСАГО - Мегарусс клиент"
 
 ```
 [{
