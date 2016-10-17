@@ -40,8 +40,6 @@ Accept: application/json, text/plain, */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Referer: http://megaruss-client.cmios.ru/
-Authorization:
-Cookie:
 ```
 
 Ответ сервера будет содержать значения этого параметра и ID этих значений:
