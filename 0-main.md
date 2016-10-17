@@ -24,7 +24,7 @@
 
 Пример:
 
-```
+```HTTP
 Host: megaruss-client.cmios.ru
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:51.0) Gecko/20100101 Firefox/51.0
 Accept: application/json, text/plain, */*

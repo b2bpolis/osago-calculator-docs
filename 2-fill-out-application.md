@@ -18,7 +18,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 Пример запроса:
 
-```
+```JSON
 {
   "birth_date": "1987-01-13",
   "driving_experience_started": null,
@@ -56,7 +56,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 Пример отправленных значений:
 
-```
+```JSON
 {
   "car_mark": 429,
   "car_model": 1756,
@@ -92,7 +92,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 Пример:
 
-```
+```JSON
 {
   "owner": 3397,
   "beneficiary": 3397,
@@ -107,7 +107,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 Пример:
 
-```
+```JSON
 {
   "external_id": null,
   "insured_object": 4655,
@@ -125,7 +125,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 `/policy/rest/result_policy/1391/`
 
-```
+```JSON
 {
   "result": 68306696,
   "insurance_company": 54188,
@@ -165,7 +165,7 @@ insured-object-create | `/rest/default/client/insured-object-create/`
 
 Пример полученных данных
 
-```
+```JSON
 {
   "content_type": "car",
   "created": "2016-10-14T18:35:01.402",

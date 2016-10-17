@@ -12,7 +12,7 @@
 
 Пример отправленных значений:
 
-```
+```JSON
 {
   "birth_date": "1985-09-18",
   "driving_experience_started": "2009-07-14",
@@ -38,7 +38,7 @@
 
 `/rest/default/client/car-create`
 
-```
+```JSON
 {
   "car_mark": 303,
   "car_model": 36094,
@@ -59,7 +59,7 @@
 
 `/rest/default/client/insured-object`
 
-```
+```JSON
 {
   "drivers": [3655],
   "beneficiary": 3337,
@@ -72,7 +72,7 @@
 
 `/rest/full/calculation/`
 
-```
+```JSON
 {
   "id": 6651462,
   "car_cost": "0",
@@ -207,7 +207,7 @@
 - `6651460` это `id` из запроса `/rest/full/calculation/`
 - `54188` это id продукта страховой компании `available_insurance_departments` из запроса `/rest/full/calculation/`, например "ОСАГО - Мегарусс клиент"
 
-```
+```JSON
 [{
   "program": {
     "theft_sum": null,
