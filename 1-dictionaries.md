@@ -6,26 +6,22 @@
 
 ## Список используемых справочников
 
-### Автомобиль
-
 Справочник                                                                          | Значение
 ----------------------------------------------------------------------------------- | -----------------------
 `/rest/full/car_mark/`                                                              | Марки автомобилей
-`/rest/full/car_mark/<car_mark_id>/car_model_group/`                                | Группы автомобилей
-`/rest/full/car_mark/<car_mark_id>/car_model_group/<car_model_group_id>/car_model/` | Модификации автомобилей
+`/rest/full/car_mark/<car_mark_id>/car_model/`                                      | Модели автомобилей
 `/rest/full/car_type/`                                                              | Тип ТС
 `/rest/full/target_of_using/`                                                       | Цель использования
+`/rest/full/insurance_duration/`                                                    | Срок страхования
+`/rest/full/exploitation_area/`                                                     | Регион эксплуатации
+`/rest/full/insurant_type/`                                                         | Тип страхования
+`/rest/full/insurable_risk/`                                                        | Страховой риск
+`/rest/full/owner_registration/`                                                    | Регион регистрации
+`/rest/full/prolongation/`                                                          | Регион регистрации
 
-### Условия страхования
+В практическом примере показано получение Python'ом модели и марки авто. Аналогично необходимо получить id из указанных выше справочников для использования в Расчёте.
 
-Справочник                                 | Значение
------------------------------------------- | -----------------------
-`/rest/full/insurance_duration/`           | Срок страхования
-`/rest/full/exploitation_area/`            | Регион эксплуатации
-`/rest/full/insurant_type/`                | Тип страхования
-`/rest/full/contributory_scheme/`          | Порядок уплаты
-`/rest/full/insurable_risk/`               | Страховой риск
-`/rest/full/owner_registration/`           | Регион регистрации
+Также можно получить все значения и id из справочников через REST запросы, как указано ниже.
 
 Рассмотрим получение данных на примере справочника "Цель использования"
 
